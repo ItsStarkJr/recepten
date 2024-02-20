@@ -1,0 +1,22 @@
+{
+  "Chili con carne": {
+    "category": "Mexican",
+    "ingredients": { "garlic": "6", "onions": "3" },
+    "method": ["Cook onions", "Bake garlic"]
+  },
+  "Onion soup": {
+    "category": "French",
+    "ingredients": { "onions": "1000", "thyme": "10 grams" },
+    "method": ["Bake onions"]
+  },
+  "lasagna": {
+    "category": "italiaans",
+    "ingredients": {
+      "lasagnavellen": "3--",
+      "uien": "23",
+      "knoflook": "4 tenen",
+      "tomaat": "dRIEDUIZEND"
+    },
+    "method": ["kko saus", "jklasd", "nasdfnj"]
+  }
+}
