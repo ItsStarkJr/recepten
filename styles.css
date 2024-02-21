@@ -16,6 +16,10 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 :root {
   color: rgb(200, 200, 200);
   font-family: "Cormorant Garamond", serif;
@@ -120,4 +124,50 @@ a:visited {
   color: rgb(200, 200, 200);
 
   font-weight: 500;
+}
+
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.country-container {
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.country-container::before {
+  content: "";
+  padding-top: 100%;
+  display: block;
+  background-color: green;
+}
+
+.country-container > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.country-container > .name-container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30;
+}
+
+.country-container > .name-container:hover {
+  background-color: rgba(40, 40, 40, 0.7);
 }
