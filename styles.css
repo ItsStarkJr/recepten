@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background-colour-transp: rgba(0, 0, 0, 0.2);
   --background-colour: #002886;
   --title-colour: #6fa1fe;
@@ -7,61 +7,117 @@
   --link-text-colour: #6fa1fe;
   --link-text-colour-hover: #ffffff;
   --button-colour: #ffffff;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400;1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  color: rgb(200, 200, 200);
+  font-family: "Cormorant Garamond", serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: var(--background-colour);
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: var(--background-colour-transp);
-  color: var(--title-colour);
-  padding: 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  display: inline-block;
-  padding: 10px 20px;
-  color: var(--link-text-colour);
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-nav ul li a:hover {
-  background-color: #666;
-  color: var(--link-text-colour-hover);
+  background: rgb(100, 100, 100);
 }
 
 main {
-  padding: 20px;
+  scroll-snap-type: y mandatory;
+  scroll-padding-top: 10vh;
+  height: 100vh;
+  overflow: auto;
+}
+main > * {
+  padding: 2rem;
 }
 
-footer {
-  background-color: var(--background-colour-transp);
-  color: var(--title-colour);
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.main-recipe-container {
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 3px rgba(255, 255, 255, 0.16);
+  background: rgba(0, 0, 0, 0.2);
+  --webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+
+.button-container > button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-bottom: solid 1px rgb(200, 200, 200);
+  margin-left: 20;
+  color: rgb(200, 200, 200);
+}
+
+.button-container > button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+main > section {
+  scroll-snap-align: start;
+  display: flow-root;
+  column-width: 100%;
+  hyphens: auto;
+  height: 90vh;
+}
+
+main > section:nth-child(odd) {
+  background: rgb(100, 100, 100);
+}
+main > section:nth-child(odd) figure {
+  float: left;
+  margin: 0 1rem 0 0;
+}
+
+main > section:nth-child(even) {
+  background: rgb(80, 80, 80);
+}
+
+main > section:nth-child(even) figure {
+  float: right;
+  margin: 0 0 0 1rem;
+}
+
+main > section > p {
+  margin: 10px;
+}
+section figure {
+  max-width: 200px;
+}
+section img {
+  display: block;
+  max-width: 100%;
+}
+
+figcaption {
+  margin-top: 0.25rem;
+  font-size: 0.95rem;
+  text-align: center;
+  font-style: italic;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited {
+  color: rgb(200, 200, 200);
+
+  font-weight: 500;
 }
