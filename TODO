@@ -1,3 +1,4 @@
 - split up home page over all categories
 - make page jump to correct category on click in navbar?
 - scrolling in general.
+- add event listener for quick scrolling? (https://www.youtube.com/watch?v=Lcdc2v-9PjA 33:30)
