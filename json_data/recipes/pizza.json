@@ -1,0 +1,14 @@
+{
+  "name": "pizza",
+  "date": "28/02/2024",
+  "category": "italian",
+  "subcategory": "european",
+  "description": "Pizza is an Italian dough dish from Napoli. Commonly prepared with a tomato sauce, some cheese etc.",
+  "ingredients": {
+    "flower": "200 gr",
+    "salt": "",
+    "pepper": "",
+    "olive oil": "2 tbs"
+  },
+  "method": ["Knead the dough.", "Add the sauce.", "Bake the pizza."]
+}

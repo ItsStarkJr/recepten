@@ -8,5 +8,12 @@
     "knoflook": "4 tenen",
     "tomaat": "dRIEDUIZEND"
   },
-  "method": ["kko saus", "jklasd", "nasdfnj"]
+  "method": ["kko saus", "jklasd", "nasdfnj"],
+  "tips": {
+    "general": ["Serve with some rice and vegetables", "Brown meat welllll."],
+    "links": {
+      "google": "https://www.google.nl/?gws_rd=ssl",
+      "youtube": "https://www.youtube.com/"
+    }
+  }
 }

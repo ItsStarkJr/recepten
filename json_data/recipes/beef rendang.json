@@ -1,0 +1,40 @@
+{
+  "name": "beef rendang",
+  "date": "28/02/2024",
+  "category": "asian",
+  "subcategory": "indonesian",
+  "description": "Indonesian thick beef stew, slowly cooked in coconut milk with a load of spices.",
+  "ingredients": {
+    "beef (fit for stews)": "1.5 kg",
+    "neutral oil (e.g. rice bran oil)": "some",
+    "onions": "2 large",
+    "garlic": "12 cloves",
+    "red chili peppers": "~6 cayenne peppers or to taste",
+    "galangal": "thick piece ~5 cm",
+    "ginger": "thick piece ~5 cm",
+    "lemongrass": "4 stalks",
+    "coconut milk": "800 ml",
+    "daun salam": "2-4 leaves",
+    "djeruk purut": "10 leaves",
+    "turmeric": "small piece of root or tsp of powder",
+    "coriander seeds": "4 tsp",
+    "cumin seeds": "4 tsp",
+    "kemiri nuts": "12",
+    "cinnamon or cassia": "1 stick",
+    "trassi (fermented shrimp paste)": "2 tbsp",
+    "ground coconut": "~150 g"
+  },
+  "method": [
+    "Toast cumin and coriander seeds until fragrant.",
+    "Cut the thicker, softer part of the lemongrass stalks into small pieces (save the thinner, harder parts for later).",
+    "Throw the chopped lemongrass in a blender, along with the toasted spices, the kemiri nuts, the turmeric, the galangal and ginger, the onions and garlic, the trassi, and the chili peppers and blend to a paste. Depending on the blender you might want to cut some of the ingredients into smaller pieces beforehand. While blending, add some water or neutral oil if it's too dry.",
+    "Toast the ground coconut until brown. Let it cool and grind to a paste in a pestle and mortar.",
+    "Cut the meat into decent sized chunks and brown well on high heat in some oil.",
+    "Take the meat out of the pan and add the blended paste. Cook for a couple of minutes (about 10) on medium heat. Add some water if it gets too dry.",
+    "Put the meat back in the pan and add half of the coconut milk.",
+    "Add the remaining lemongrass stalks, the cinnamon/cassia, daun salam, djeruk purut, and the coconut paste.",
+    "Bring to a soft boil and put on lowest possible heat. Let simmer for a couple of hours.",
+    "Depending on how dry it gets along the way, and how thick you prefer it, add more coconut milk along the way.",
+    "Serve with rice and some vegetables."
+  ]
+}
