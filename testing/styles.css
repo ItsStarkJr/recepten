@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(51, 51, 51);
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: darkgray;
+}
+
+button {
+  background: transparent;
+  width: 10rem;
+}
+
+li,
+button {
+  /* background: rgba(218, 218, 218, 0.1); */
+  background: transparent;
+  border: none;
+  color: darkgray;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-bottom: 3px;
+  display: inline;
+  /* border-bottom: rgba(218, 218, 218, 0.2) solid 1px; */
+  text-align: left;
+  /* border-radius: 15px; */
+}
+li:hover,
+button:hover {
+  background-color: rgba(218, 218, 218, 0.1);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.list-container {
+  width: 10rem;
+}
+
+.not-shown {
+  display: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.active {
+  background-color: rgba(218, 218, 218, 0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
